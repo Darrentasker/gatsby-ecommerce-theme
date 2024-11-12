@@ -89,7 +89,7 @@ const IndexPage = () => {
 
       {/* Promotion */}
       <div className={styles.promotionContainer}>
-        <Hero image={toOptimizedImage('')} title={`-50% off \n All Essentials`} />
+        <Hero image={toOptimizedImage('/banner2.png')} title={`-50% off \n All Essentials`} />
         <div className={styles.linkContainers}>
           <Link to={'/shop'}>WOMAN</Link>
           <Link to={'/shop'}>MAN</Link>
